@@ -1,0 +1,29 @@
+button{
+	cursor: pointer;
+	background-color:#3b4bf9;
+	border: none;
+	color: white;
+	padding: 10px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.line{
+	stroke: steelblue;
+	stroke-width: 1;
+	fill: none;
+}
+circle, rect{
+	fill: blue;
+}
+rect.active, path.active{
+	opacity: 0.5;
+}
+#line_chart .yAxis line {
+  stroke: lightgrey;
+  stroke-opacity: 0.7;
+}
+#line_chart .yAxis path {
+  stroke-width: 0; /* remove vertical line */
+}
